@@ -9,7 +9,7 @@ def load_and_clean_data(filepath):
     df.drop(["ID"], axis=1, inplace=True)
     
     # Clean categorical variables
-    df['EDUCATION'].replace({0:1,1:1,2:2,3:3,4:4,5:1,6:1}, inplace=True)
+    df['EDUCATION'].replace({0:1,1:1,2:2,3:3,4:4,5:4,6:4}, inplace=True)
     df['MARRIAGE'].replace({0:1,1:1,2:2,3:3}, inplace=True)
     
     return df

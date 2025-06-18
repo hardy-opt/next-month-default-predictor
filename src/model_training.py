@@ -20,8 +20,10 @@ def train_xgboost_with_tuning(X_train, y_train):
     xgb_clf = xgb.XGBClassifier()
     
     params = {
-        "learning_rate": [0.001, 0.005, 0.01, 0.05, 0.10, 0.15, 0.20, 0.25, 0.30],
-        "max_depth": [3, 4, 5, 6, 8, 10, 12, 15],
+        "objective":['binary:logistic'],
+        "learning_rate": [0.001, 0.005, 0.01, 0.05, 0.10, 0.15, 0.20, 0.25, 0.30, 0.35, 0.4, 0.45],
+        "max_depth": [4, 6, 8],
+        "reg_lambda":[0.05, 0.5, 0.1, 0.15, 0.2, .25, 0.3, 0.01, 0.001],
         # ... rest of params
     }
     
