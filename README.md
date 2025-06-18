@@ -192,9 +192,9 @@ The main.py script generates comprehensive evaluation reports and visualizations
 The results/model\_comparison.csv file will contain a summary of key metrics for each model, facilitating easy comparison.
 
 <p align="center">
-  <img src="results/figures/LR.png" alt="Logistic Regression" style="max-width: 30%;">
-  <img src="results/figures/RF.png" alt="Random Forest" style="max-width: 30%;">
-  <img src="results/figures/XGB.png" alt="Extreme Gradient Boosting" style="max-width: 30%;">
+  <img src="results/figures/LR.png" alt="Logistic Regression" width="30%">
+  <img src="results/figures/RF.png" alt="Random Forest" width="30%">
+  <img src="results/figures/XGB.png" alt="Extreme Gradient Boosting" width="30%">
 </p>
 
 ## **🔮 Future Enhancements**
