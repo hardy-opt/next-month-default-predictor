@@ -154,7 +154,7 @@ cd credit-card-default-prediction
 ```
 
 2. **Download Data:**  
-   * Obtain the default\_of\_credit\_card\_clients.csv dataset from [defaul_credit_card_dataset](https://www.kaggle.com/datasets/uciml/default-of-credit-card-clients-dataset).  
+   * Obtain the default\_of\_credit\_card\_clients.csv dataset from [default_credit_card_dataset](https://www.kaggle.com/datasets/uciml/default-of-credit-card-clients-dataset).  
    * Place the default\_of\_credit\_card\_clients.csv file into the data/raw/ directory.  
 3. **Set up Virtual Environment (Recommended):**  
 ```console
@@ -231,7 +231,7 @@ The main.py script generates comprehensive evaluation reports and visualizations
 - All models struggle with class imbalance (4687 non-defaults vs 1313 defaults)
 - **XGBoost** provides the best balance between precision and recall for default prediction
 
-
+<!--
 ## **🔮 Future Enhancements**
 
 * **Advanced Feature Engineering**: Explore more complex interaction terms, polynomial features, and time-series analysis for payment history.  
@@ -239,4 +239,4 @@ The main.py script generates comprehensive evaluation reports and visualizations
 * **Hyperparameter Optimization**: Implement more exhaustive tuning strategies (e.g., GridSearchCV, Bayesian Optimization) for all models.  
 * **Explainability (XAI)**: Use techniques like SHAP or LIME to explain model predictions, providing more transparency to credit officers.  
 * **Deployment**: Develop a simple API or web application to serve the trained model for real-time predictions.  
-* **Monitoring**: Implement a system to monitor model performance drift over time in a production environment.
+* **Monitoring**: Implement a system to monitor model performance drift over time in a production environment. -->
